@@ -10,3 +10,7 @@
 ## 更新検知の仕組み
 * ページ内容のハッシュ値
 * HTTPヘッダーのLast-ModifiedやETag
+
+### 開発メモ
+* 手動動作確認
+  * SLACK_WEBHOOK_URL="" ./notify-slack.sh
