@@ -1,6 +1,3 @@
-set -x
-echo "SLACK_WEBHOOK_URL: ${SLACK_WEBHOOK_URL}"
-
 LINKS_FILE="rails-urls.yml"
 
 message="Weekly News：\n"
