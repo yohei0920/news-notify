@@ -2,7 +2,7 @@ name: Notify Slack
 
 on:
   schedule:
-    - cron: "* 6 * * 6"
+    - cron: "30 8 * * 6"
 
 jobs:
   notify:
@@ -14,4 +14,4 @@ jobs:
       - name: Send Slack notification
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: ./notify-slack.sh
+        run: ./notify-slack.sh $SLACK_WEBHOOK_URL
