@@ -15,4 +15,4 @@ jobs:
       - name: Send Slack notification
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: ./notify-slack.sh
+        run: ./rails-notify-slack.sh
