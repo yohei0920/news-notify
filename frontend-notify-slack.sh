@@ -1,4 +1,4 @@
-LINKS_FILE="rails-urls.yml"
+LINKS_FILE="frontend.yml"
 
 message="Weekly News：\n"
 while IFS= read -r line; do
