@@ -1,4 +1,7 @@
 frontend:
   magmag: https://maku.blog/p/gqo9yoo/
-  zenn: https://zenn.dev/topics/typescript
+  zenn-ts: https://zenn.dev/topics/typescript
+  zenn-react: https://zenn.dev/topics/react
+  zenn-js: https://zenn.dev/topics/javascript
+  zenn-frontend: https://zenn.dev/topics/frontend
   qiita: https://qiita.com/Qiita/items/b5c1550c969776b65b9b?utm_source=chatgpt.com
