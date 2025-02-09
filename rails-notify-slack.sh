@@ -1,6 +1,6 @@
 LINKS_FILE="rails-urls.yml"
 
-message="Weekly News：\n"
+message="Rails Weekly News：\n"
 while IFS= read -r line; do
   if [[ $line =~ ^[[:space:]]*([^:]+):[[:space:]]*(https?://.+)$ ]]; then
     title="${BASH_REMATCH[1]}"

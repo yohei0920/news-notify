@@ -1,6 +1,6 @@
 LINKS_FILE="frontend.yml"
 
-message="Weekly News：\n"
+message="Frontend Weekly News：\n"
 while IFS= read -r line; do
   if [[ $line =~ ^[[:space:]]*([^:]+):[[:space:]]*(https?://.+)$ ]]; then
     title="${BASH_REMATCH[1]}"

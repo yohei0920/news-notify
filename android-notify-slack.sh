@@ -1,6 +1,6 @@
 LINKS_FILE="java-kotlin-android-article.yml"
 
-message="Weekly News：\n"
+message="Java Kotlin Android Weekly News：\n"
 while IFS= read -r line; do
   if [[ $line =~ ^[[:space:]]*([^:]+):[[:space:]]*(https?://.+)$ ]]; then
     title="${BASH_REMATCH[1]}"
