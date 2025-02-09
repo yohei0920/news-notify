@@ -9,6 +9,8 @@ java:
   qiita-android: https://qiita.com/search?q=android&sort=created
   qiita-java: https://qiita.com/search?sort=created&q=java
   qiita-kotlin: https://qiita.com/search?sort=created&q=kotlin
+  qiita-monthly-trend: https://qiita.com/Qiita/items/616e8f6d4f69bd582ab5
+  qiita-personal-develop: https://zenn.dev/nameless_sn/articles/awesome_personal_devlopment
   zenn-android: https://zenn.dev/topics/android
   zenn-java: https://zenn.dev/topics/java
   zenn-kotlin: https://zenn.dev/topics/kotlin
